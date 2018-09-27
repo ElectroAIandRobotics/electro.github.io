@@ -4,10 +4,14 @@ body {
 
 .title {
   background-color: #21AFEC;
+  padding: 5px;
+  border: 25px;
   font-family: 'Fredoka One', cursive;
 }
 
 .electro {
   background-color: #28D9DF;
+  padding: 5px;
+  border: 25px;
   font-family: 'Fredoka One', cursive;
 }
