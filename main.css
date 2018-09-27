@@ -1,7 +1,13 @@
+body {
+  
+}
+
 .title {
+  background-color: #21AFEC;
   font-family: 'Fredoka One', cursive;
 }
 
 .electro {
+  background-color: #28D9DF;
   font-family: 'Fredoka One', cursive;
 }
