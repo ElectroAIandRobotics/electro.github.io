@@ -9,9 +9,12 @@ body {
   font-family: 'Fredoka One', cursive;
 }
 
-.electro {
+.About{
   background-color: #28D9DF;
   padding: 5px;
   border: 25px;
+}
+
+.electro {
   font-family: 'Fredoka One', cursive;
 }
