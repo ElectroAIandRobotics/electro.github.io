@@ -3,7 +3,7 @@
     <title>Electro Technologies</title>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href=main.css />
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
   </head>
@@ -11,21 +11,43 @@
     <center>
     <div class="title" id="title">
       <h1>Electro Technologies</h1>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Welcome</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About<!--<span class="sr-only">(current)</span>--></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>-->
+        </ul>
+      </div>
+      </nav>
     </div>
     <div>
-      <section id="project">
+      <section id="about" class="section-odd">
         <h1>About</h1>
         <p>My name is Amrit Shenava and I am a innovative person who loves to build stuff and do creative things. Electro Technologies is where I house my AI side projects. And no, this is not a Startup but I would like to see how it is like to run a startup. I would also like to help companies, projects that incorporate AI.</p>
       </section>
-      <section id="research">
+      <section id="research" class="section-even">
         <h1>Research</h1>
-        <p>I am also working on various research works in the field of AI
+        <p>Research is at the heart of AI. If there are many then this space will be updated.</p>
       </section>
-      <section id="projects">
+      <section id="projects" class="section-odd">
         <h1>Projects</h1>
-        <p>You can find my projects here.</p>
+        <p>Some of the AI projects that I am working on.</p>
       </section>
-      <section id="partnerships">
+      <section id="partnerships" class="section-even">
         <h1>Partnerships & Collaborations</h1>
         <p>I am up for partnerships or collaborations.</p>
         

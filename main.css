@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
   
@@ -16,3 +20,28 @@ body {
   border: 25px;
 }
 
+.section-odd {
+  height : 100vh;
+  text-align: center;
+  background-color: #4E99FA;
+  box-sizing: border-box;
+}
+
+.section-odd h1 {
+	text-align: center;
+	display: inline-block;
+	margin-top: 25%;
+}
+
+.section-even {
+	height : 100vh;
+	text-align: center;
+	background-color: #77C9F9;
+	box-sizing: border-box;
+}
+
+.section-even h1 {
+	text-align: center;
+	display: inline-block;
+	margin-top: 25%;
+}
